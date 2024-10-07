@@ -1,0 +1,129 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding: 0 0.5em;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+
+.cart-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.cart-container h2 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+#cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#cart-table th {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+#cart-table tr {
+    border-bottom: 1px solid #ddd;
+}
+#cart-table td {
+    padding: 10px;
+}
+#cart-table tr:last-child {
+    border-bottom: 0;
+}
+
+#cart-total {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+@media (max-width: 740px) {
+  button {
+    padding: 5px 10px;
+    content: "Add";
+  }
+}
+
+#checkoutBtn {
+    background-color: #4CAF50;
+    color: #fff;
+}
+#checkoutBtn:hover {
+    background-color: #3E8E41;
+}
+
+#checkoutBtn2 {
+    background-color: #D63384;
+    color: #fff;
+    margin-top: 20px;
+}
+#checkoutBtn2:hover {
+    background-color: #C02D76;
+}
+
+.addtocartBtn {
+    background-color: #007BFF;
+    color: #fff;
+}
+.addtocartBtn:hover {
+    background-color: #0069D9;    
+    color: #fff;
+}
+
+
+.qty {
+    width: 3.5em;
+}
+
+.cart-email {
+    width: 90%;
+    margin: 2em 0.5em 2em 0.5em;
+    border: 1px solid #eee;
+    border-radius: 7px;
+    padding: 0.5em;
+}
+.cart-note {
+    width: 90%;
+    margin: 0em 0.5em 2em 0.5em;
+    border: 1px solid #eee;
+    border-radius: 7px;
+    padding: 0.5em;
+}
+
+#basket {
+    display: inline-block;
+    min-width: 90px;
+    padding: 0.5em 1em;
+    margin-bottom: 1.5em;
+    border: 1px solid #999;
+    border-radius: 7px;
+}
+#basket a {
+    text-decoration: none;
+    color: #000;
+}
+.basket-cnt {
+    min-height: 65px;
+}
