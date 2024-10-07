@@ -1,4 +1,4 @@
-# shopping-cart
+# Shopping Cart
 
 This is a shopping cart demo.
 
