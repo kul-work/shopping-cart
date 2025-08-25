@@ -4,8 +4,6 @@ class Database {
     private $conn;
 
     public function __construct() {
-        require_once __DIR__ . '/../config/config.php';
-
         $this->conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
         if ($this->conn->connect_error) {
