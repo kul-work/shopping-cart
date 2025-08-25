@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . '/../config/config.php';
 session_start();
+
 
 require_once '../src/Database.php';
 require_once '../src/Cart.php';
