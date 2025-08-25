@@ -41,7 +41,7 @@ class Cart {
 
 
     public function emptyCart() {
-        unset($_SESSION['cart']);
+        $_SESSION['cart'] = array();
         unset($_SESSION['cart-note']);
     }
 
